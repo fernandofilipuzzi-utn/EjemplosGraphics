@@ -65,7 +65,7 @@ namespace DibujarFuncMatematica
                 //calculo el siguiente punto, 
                 int yp1=(int)(5*Amplitud*Math.Sin(2*Math.PI/20*xp1));
                 
-                #region dibujo 
+                #region dibujo del segumento de línea entre los dos puntos
                 g.DrawLine(pen, new Point(xp0+ posXEje, -yp0+ posYEje), new Point(xp1+ posXEje, -yp1 + posYEje));
                 #endregion
 
